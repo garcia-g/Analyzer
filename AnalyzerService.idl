@@ -1,0 +1,28 @@
+module OpenHRP
+{
+  interface AnalyzerService
+  {
+    /***********************************
+     *
+     *   Service for using the analyzer component 
+     * for retrieving a motion script
+     *
+     * @date Nov 8, 2011
+     *
+     * Written by Gustavo Garcia
+     * Robotics Lab @ NAIST
+     *  
+     ***********************************/
+
+    /**
+     * @brief Retrieves and processes the motion script    
+     * @param fileName name of the file to retrieve [string] (in)
+     * @param runMode chooses the processing mode (all, manipulationOnly, walkingOnly) [string] (in)
+     * Returns 1 on sucess, otherwise 0
+     */
+    
+    short analyze(in string fileName,
+		  in string runMode);
+
+  };
+};
