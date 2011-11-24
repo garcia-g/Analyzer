@@ -5,7 +5,7 @@
  * @date Nov 8, 2011
  *
  * Written by Gustavo Garcia
- * Robotics Lab @ NAIST
+ * Robotics Lab @ NAIST 
  * 
  */
 
